@@ -1,0 +1,11 @@
+apiversion:  v1
+kind:  Pod 
+metadata:  
+  name:  maddy-yaml 
+specs:
+  containers:
+    - name:  niginix-container
+      image:  niginix 
+      ports: 
+        - containerPorts:  80 
+          protocol:  TCP 
